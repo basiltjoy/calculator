@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./calculator.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="c">
+        <h1>Calculator</h1>
+        <input type="text" id="calculator" style="width: 5cm;">
+        <div class="c1">
+            <button class="px-1">+/-</button>
+            <button class="px-2" onclick="displayValue(7)">7</button>
+            <button class="px-2" onclick="displayValue(8)">8</button>
+            <button class="px-1" onclick="displayValue(9)">9</button>
+        </div>
+
+        <div class="c2">
+            <button class="px-2" onclick="clearBox()">C</button>
+            <button class="px-2" onclick="displayValue(4)">4</button>
+            <button class="px-2" onclick="displayValue(5)">5</button>
+            <button class="px-2" onclick="displayValue(6)">6</button>
+        </div>
+
+        <div class="c3">
+            <button class="px-1" onclick="clearBox()">AC</button>
+            <button class="px-2" onclick="displayValue(1)">1</button>
+            <button class="px-2" onclick="displayValue(2)">2</button>
+            <button onclick="displayValue(3)">3</button>
+        </div>
+
+        <div class="c4">
+            <button class="px-2" onclick="displayValue(0)">0</button>
+            <button onclick="displayValue(`00`)">00</button>
+            <button class="px-2" onclick="displayValue(`.`)">.</button>
+            <button class="px-2" onclick="evaluateValue()">=</button>
+        </div>
+
+        <div id="mul_op">
+            <button id="b1" class="px-2" onclick="displayValue(`*`)">*</button>
+            <button id="b2" class="px-2" onclick="displayValue(`-`)">-</button>
+            <button id="b3" class="px-6" onclick="displayValue(`+`)">+</button>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

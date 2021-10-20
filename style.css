@@ -1,0 +1,44 @@
+.c{
+    background-color: blue;
+    width: 5cm;
+    height: 260px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+body{
+    background-color: cornflowerblue;
+}
+.c1{
+    margin-top: 6%;
+    margin-left:10%;
+}
+.c2{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+.c3{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+.c4{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+#mul_op{
+    margin-top: -81%;
+    margin-left: 82%;
+}
+#b2{
+    margin-top: 30%;
+    margin-left: 1%;
+}
+#b3{
+    margin-top: 14%;
+    margin-left: 4%;
+    padding-bottom: 141%;
+}
+#calculator{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
